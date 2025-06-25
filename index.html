@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kochbuch PWA</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icons/icon-192x192.png">
+</head>
+<body>
+  <header class="app-bar">
+    <h1>Mein Digitales Kochbuch</h1>
+  </header>
+
+  <main class="container">
+    <!-- Dynamisch eingebunden -->
+    <section id="content"></section>
+  </main>
+
+  <footer class="nav-bar">
+    <button id="btn-new">➕ Neues Rezept</button>
+    <button id="btn-gallery">📚 Meine Rezepte</button>
+  </footer>
+
+  <script src="lib/idb.js"></script>
+  <script src="app.js"></script>
+  <script src="cookie.js"></script>
+</body>
+</html>
