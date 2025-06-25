@@ -1,0 +1,26 @@
+<!-- components/recipe-form.html -->
+<form id="recipe-form" class="recipe-form">
+  <h2>Neues Rezept</h2>
+  
+  <div class="form-group">
+    <label for="title">Rezeptname</label>
+    <input type="text" id="title" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="image">Foto</label>
+    <input type="file" id="image" accept="image/*">
+  </div>
+  
+  <div class="form-group">
+    <label for="ingredients">Zutaten</label>
+    <textarea id="ingredients" rows="4" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label for="steps">Zubereitung</label>
+    <textarea id="steps" rows="6" required></textarea>
+  </div>
+  
+  <button type="submit">Rezept speichern</button>
+</form>
